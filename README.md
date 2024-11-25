@@ -44,9 +44,9 @@ BookVerse is a cutting-edge online bookstore project that leverages both relatio
 
 ### Technical Highlights:
 
-- Database Integration: Utilized MySQL for managing relational data concerning book catalogues and customer information, and MongoDB for handling non-relational data like user preferences and recommendations.
-- Recommendation Engine: Developed a sophisticated recommendation engine that analyzes user preferences stored in MongoDB to suggest books, enhancing user engagement and sales.
-- Scalable Architecture: Designed and implemented a three-tier architecture, ensuring scalability and robust performance across presentation, application logic, and data storage layers.
+- **Database Integration:** Utilized MySQL for managing relational data concerning book catalogues and customer information, and MongoDB for handling non-relational data like user preferences and recommendations.
+- **Recommendation Engine:** Developed a sophisticated recommendation engine that analyzes user preferences stored in MongoDB to suggest books, enhancing user engagement and sales.
+- **Scalable Architecture:** Designed and implemented a three-tier architecture, ensuring scalability and robust performance across presentation, application logic, and data storage layers.
 
 ### Impact:
 BookVerse revolutionizes the way readers discover and purchase books by integrating advanced database management and analytics. This project not only improves operational efficiencies but also significantly enhances the user experience through personalized services.
@@ -57,9 +57,9 @@ SmartRoute is an innovative transportation solution designed to optimize the tra
 
 ### Technical Highlights:
 
-- Algorithm Development: Developed sophisticated routing algorithms that analyze real-time traffic data to optimize route selection, ensuring the most time-efficient and cost-effective travel.
-- Business Intelligence Integration: Implemented a robust internal BI platform to support data-driven decisions in advertising and analytics, enhancing the overall strategy for route and resource management.
-- Real-time Data Processing: Engineered solutions to process and execute real-time data models, facilitating immediate adjustments to routing based on current road conditions and ERP charges.
+- **Algorithm Development:** Developed sophisticated routing algorithms that analyze real-time traffic data to optimize route selection, ensuring the most time-efficient and cost-effective travel.
+- **Business Intelligence Integration:** Implemented a robust internal BI platform to support data-driven decisions in advertising and analytics, enhancing the overall strategy for route and resource management.
+- **Real-time Data Processing:** Engineered solutions to process and execute real-time data models, facilitating immediate adjustments to routing based on current road conditions and ERP charges.
 
 ### Impact:
 SmartRoute not only streamlines airport transfers but also serves as a model for integrating technological innovation into urban transport planning, demonstrating significant improvements in operational efficiency and passenger satisfaction.
