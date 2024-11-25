@@ -20,7 +20,7 @@ A-Learn+ is an innovative sentiment analysis framework designed to extract meani
 - **Transformer-Based Models:** Fine-tuned transformer models like Twitter-RoBERTa and DistilBERT for context-based sentiment analysis, enabling the framework to capture subtle nuances in adult learning feedback.
 - **Custom Neural Architectures:** Integrated advanced architectures such as attention-enhanced GRU, CNN, and FastText to complement transformer models by capturing contextual, spatial, and hierarchical sentiment patterns.
 - **Efficient Hyperparameter Tuning:** Conducted sensitivity analysis on the number of trainable layers and learning rates to optimize model performance, balancing accuracy and computational efficiency.
-- **Data Preprocessing and Filtering:** Scraped large-scale feedback data from social networks, applied filtering mechanisms for relevance, and combined contextual post-comment structures to ensure robust training datasets.
+- **Data Preprocessing and Filtering:** Scraped large-scale feedback data from social networks such as Twitter, Reddit and Tumblr, applied filtering mechanisms for relevance, and combined contextual post-comment structures to ensure robust training datasets.
 
 ### Impact:
 A-Learn+ redefines sentiment analysis in niche domains by integrating context-aware machine-learning techniques tailored to adult learning feedback. This project empowers educational institutions and organizations to better understand learners' needs, refine their programs, and enhance learning experiences. By capturing context-specific sentiments, ContextLearn significantly improves the accuracy of feedback analysis, enabling actionable insights that drive informed decision-making and promote lifelong learning.
