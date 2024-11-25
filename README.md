@@ -11,6 +11,19 @@ Lab Analyst Intern @ Syngenta Asia Pacific Pte Ltd
 
 # Projects
 
+## A-Learn+: Context-Based Sentiment Analysis for Adult Learning Feedback
+Project Overview:
+A-Learn+ is an innovative sentiment analysis framework designed to extract meaningful insights from adult learning feedback by leveraging context-aware machine learning. This project focuses on utilizing advanced transformer-based models and custom neural network architectures to analyze feedback with a high level of contextual understanding, enabling precise sentiment predictions and actionable insights for enhancing educational experiences in adult learning environments.
+
+### Technical Highlights:
+
+- Transformer-Based Models: Fine-tuned transformer models like Twitter-RoBERTa and DistilBERT for context-based sentiment analysis, enabling the framework to capture subtle nuances in adult learning feedback.
+- Custom Neural Architectures: Integrated advanced architectures such as attention-enhanced GRU, CNN, and FastText to complement transformer models by capturing contextual, spatial, and hierarchical sentiment patterns.
+- Efficient Hyperparameter Tuning: Conducted sensitivity analysis on the number of trainable layers and learning rates to optimize model performance, balancing accuracy and computational efficiency.
+- Data Preprocessing and Filtering: Scraped large-scale feedback data from social networks, applied filtering mechanisms for relevance, and combined contextual post-comment structures to ensure robust training datasets.
+
+### Impact:
+A-Learn+ redefines sentiment analysis in niche domains by integrating context-aware machine learning techniques tailored to adult learning feedback. This project empowers educational institutions and organizations to better understand learners' needs, refine their programs, and enhance learning experiences. By capturing context-specific sentiments, ContextLearn significantly improves the accuracy of feedback analysis, enabling actionable insights that drive informed decision-making and promote lifelong learning.
 ## AiStudy: Advanced Learning Platform
 Project Overview:
 AiStudy is an innovative educational platform designed to enhance the learning experience through artificial intelligence and data-driven insights. This project focuses on leveraging advanced machine learning algorithms to personalize learning paths, thereby maximizing student engagement and educational outcomes.
