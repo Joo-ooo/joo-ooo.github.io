@@ -5,6 +5,18 @@
 - Chemical Engineering, Diploma, Temasek Polytechnic
 
 ### Internship Experience
+Data Science / Software Engineer Intern, Home Team Science & Technology Agency
+- Shipped a production report-lodging chatbot by owning the FastAPI backend, serving 20 concurrent users daily, applying software development and computer science principles to manage and validate the end-to-end product lifecycle from coding to final deployment in an enterprise environment
+- Conducted regular code review sessions, reduced defects by 35% and improved code quality; applied automated testing, TDD, debugging and DevOps practices with containerization for smooth go-live execution
+- Built a multi-store agentic RAG to handle complex systems query routing across multiple database instances, ensuring real-time processing and clear interpretation of key metrics for stakeholders through an intuitive interface
+- Engaged in cross-functional communication to collaborate on robust REST APIs using HTTP best practices, ensuring the system met 100% of performance requirements & compliance standards for go-live execution
+
+Data Analyst Intern, Temasek Holdings Ltd
+- Designed and developed an AI-powered ATS that automated resume screening and candidate shortlisting, reducing Talent Acquisition screening time by 60% across 3 hiring workflows
+- Built an automated employee course request workflow that enabled staff to submit course requests and supervisor approvals, cutting approval turnaround time by 75% and reducing manual coordination by 20 hours per month
+- Applied project management principles to design and implement clean data ingestion, governance, and reporting systems for a data warehouse environment, ensuring system scalability and reliability
+- Collaborated with cross-functional teams in a fast-paced environment to define technical requirements and implement lean optimization solutions that align with business strategy, driving market acquisition and growth
+
 Lab Analyst Intern @ Syngenta Asia Pacific Pte Ltd
 - Analysed pesticides using High-Performance Liquid Chromatography (HPLC) & Gas Chromatography (GC) for quantitative analysis
 - Calibrated and validated equipment such as pH meter & Karl Fischer Titrators
