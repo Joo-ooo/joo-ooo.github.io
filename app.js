@@ -254,29 +254,44 @@
   const pallist = document.getElementById('pallist');
   let sel = 0, filtered = ITEMS.slice();
 
+  function paint() {
+    Array.prototype.forEach.call(pallist.children, function (li, i) {
+      li.classList.toggle('is-sel', i === sel);
+      li.setAttribute('aria-selected', i === sel ? 'true' : 'false');
+    });
+  }
   function render() {
     pallist.innerHTML = '';
     filtered.forEach(function (it, i) {
       const li = document.createElement('li');
       li.setAttribute('role', 'option');
-      li.className = i === sel ? 'is-sel' : '';
       li.innerHTML = '<span>' + it.label + '</span><span>' + it.hint + '</span>';
-      li.addEventListener('mouseenter', function () { sel = i; render(); });
-      li.addEventListener('click', function () { run(it); });
+      li.addEventListener('mouseenter', function () { sel = i; paint(); });
+      li.addEventListener('pointerdown', function (e) { e.preventDefault(); run(it); });
       pallist.appendChild(li);
     });
+    paint();
   }
+  let palOpener = null;
   function openPal() {
+    palOpener = document.activeElement;
     pal.hidden = false; palq.value = ''; filtered = ITEMS.slice(); sel = 0; render();
     setTimeout(function () { palq.focus(); }, 20);
   }
-  function closePal() { pal.hidden = true; }
+  function closePal() {
+    pal.hidden = true;
+    palq.blur();
+    if (palOpener && palOpener.focus && document.contains(palOpener)) palOpener.focus();
+    palOpener = null;
+  }
   function run(it) {
     closePal();
     if (it.action) return it.action();
     if (it.ext) return window.open(it.href, '_blank', 'noopener');
     const t = document.querySelector(it.href);
-    t && t.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' });
+    if (!t) return;
+    if (history.replaceState) history.replaceState(null, '', it.href);
+    t.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' });
   }
   document.querySelectorAll('[data-open-palette]').forEach(function (b) { b.addEventListener('click', openPal); });
   document.querySelectorAll('[data-close-palette]').forEach(function (b) { b.addEventListener('click', closePal); });
@@ -357,8 +372,8 @@
     }
     if (!pal.hidden) {
       if (e.key === 'Escape') { e.preventDefault(); return closePal(); }
-      if (e.key === 'ArrowDown') { e.preventDefault(); sel = Math.min(filtered.length - 1, sel + 1); return render(); }
-      if (e.key === 'ArrowUp') { e.preventDefault(); sel = Math.max(0, sel - 1); return render(); }
+      if (e.key === 'ArrowDown') { e.preventDefault(); sel = Math.min(filtered.length - 1, sel + 1); return paint(); }
+      if (e.key === 'ArrowUp') { e.preventDefault(); sel = Math.max(0, sel - 1); return paint(); }
       if (e.key === 'Enter') { e.preventDefault(); return filtered[sel] && run(filtered[sel]); }
       return;
     }
