@@ -246,7 +246,7 @@
     { label: 'Contact', hint: 'section', href: '#contact' },
     { label: 'GitHub profile', hint: 'external', href: 'https://github.com/Joo-ooo', ext: true },
     { label: 'AMS-RAG repository', hint: 'external', href: 'https://github.com/Joo-ooo/AMS-RAG', ext: true },
-    { label: 'Email Heng Joo', hint: 'mailto', href: 'mailto:hengjoo7267@gmail.com', ext: true },
+    { label: 'Email Heng Joo', hint: 'mailto', href: 'mailto:hengjoo0843@outlook.com', ext: true },
     { label: 'Toggle theme', hint: 'action', action: function () { theme = theme === 'dark' ? 'light' : 'dark'; applyTheme(); } }
   ];
   const pal = document.getElementById('pal');
