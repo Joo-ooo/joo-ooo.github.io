@@ -159,23 +159,24 @@
       </div>
 
       <div class="cards" id="cards">
-        <article class="card card--wide reveal" data-tags="ml data">
+        <article class="card reveal" data-tags="ml data">
           <div class="card__top">
-            <h3>A-Learn+</h3>
-            <p class="card__tagline">Context-based sentiment analysis for adult learning feedback</p>
+            <h3>AMS-RAG</h3>
+            <p class="card__tagline">Agentic multi-store RAG framework</p>
           </div>
-          <p class="card__body">A sentiment framework that reads feedback in context — pairing fine-tuned transformers with custom neural architectures to turn noisy learner comments into decisions educators can act on.</p>
+          <p class="card__body">Capstone framework where an orchestrator agent treats a vector store, a relational database and a knowledge graph as specialised tools, routing each question to the pipeline that can actually answer it.</p>
           <details class="more">
             <summary>Technical detail</summary>
             <ul role="list">
-              <li>Fine-tuned Twitter-RoBERTa and DistilBERT to capture nuance specific to adult learning feedback.</li>
-              <li>Layered attention-enhanced GRU, CNN and FastText to catch contextual, spatial and hierarchical sentiment patterns.</li>
-              <li>Ran sensitivity analysis on trainable layer count and learning rate to balance accuracy against compute.</li>
-              <li>Collected large-scale feedback from Twitter, Reddit and Tumblr, then filtered for relevance and rebuilt post–comment context for training.</li>
+              <li>LlamaIndex orchestrator classifies intent and calls the vector, SQL or graph tool — no manual store selection.</li>
+              <li>Role-based access control grants tool access by rank, so the agent can only query stores a user is authorised to see.</li>
+              <li>Benchmarked with Ragas, execution-accuracy comparison and a custom Cypher matcher across every pipeline iteration.</li>
             </ul>
           </details>
-          <p class="tags"><span>RoBERTa</span><span>DistilBERT</span><span>GRU + Attention</span><span>FastText</span><span>PyTorch</span></p>
+          <p class="tags"><span>LlamaIndex</span><span>Neo4j</span><span>ChromaDB</span><span>PostgreSQL</span><span>vLLM</span><span>Ragas</span></p>
+          <a class="card__link" href="#capstone">Read the case study ↓</a>
         </article>
+        
 
         <article class="card reveal" data-tags="ml web">
           <div class="card__top">
@@ -195,24 +196,24 @@
           <a class="card__link" href="https://github.com/Joo-ooo/AiStudy" target="_blank" rel="noopener">Repository ↗</a>
         </article>
 
-        <article class="card reveal" data-tags="web data">
+        <article class="card card--wide reveal" data-tags="ml data">
           <div class="card__top">
-            <h3>BookVerse</h3>
-            <p class="card__tagline">Online bookstore, polyglot persistence</p>
+            <h3>A-Learn+</h3>
+            <p class="card__tagline">Context-based sentiment analysis for adult learning feedback</p>
           </div>
-          <p class="card__body">A three-tier bookstore using the right database for each job — relational for catalogue and orders, document for preferences and recommendations.</p>
+          <p class="card__body">A sentiment framework that reads feedback in context — pairing fine-tuned transformers with custom neural architectures to turn noisy learner comments into decisions educators can act on.</p>
           <details class="more">
             <summary>Technical detail</summary>
             <ul role="list">
-              <li>MySQL for the book catalogue and customer records; MongoDB for preferences and recommendation state.</li>
-              <li>Recommendation engine reads preference documents to surface relevant titles.</li>
-              <li>Three-tier architecture separating presentation, application logic and storage for scalability.</li>
+              <li>Fine-tuned Twitter-RoBERTa and DistilBERT to capture nuance specific to adult learning feedback.</li>
+              <li>Layered attention-enhanced GRU, CNN and FastText to catch contextual, spatial and hierarchical sentiment patterns.</li>
+              <li>Ran sensitivity analysis on trainable layer count and learning rate to balance accuracy against compute.</li>
+              <li>Collected large-scale feedback from Twitter, Reddit and Tumblr, then filtered for relevance and rebuilt post–comment context for training.</li>
             </ul>
           </details>
-          <p class="tags"><span>PHP</span><span>MySQL</span><span>MongoDB</span></p>
-          <a class="card__link" href="https://github.com/Joo-ooo/BookVerse" target="_blank" rel="noopener">Repository ↗</a>
+          <p class="tags"><span>RoBERTa</span><span>DistilBERT</span><span>GRU + Attention</span><span>FastText</span><span>PyTorch</span></p>
         </article>
-
+       
         <article class="card reveal" data-tags="data ml">
           <div class="card__top">
             <h3>SmartRoute</h3>
@@ -231,22 +232,22 @@
           <a class="card__link" href="https://github.com/Joo-ooo/SmartRoute" target="_blank" rel="noopener">Repository ↗</a>
         </article>
 
-        <article class="card reveal" data-tags="ml data">
+         <article class="card reveal" data-tags="web data">
           <div class="card__top">
-            <h3>AMS-RAG</h3>
-            <p class="card__tagline">Agentic multi-store RAG framework</p>
+            <h3>BookVerse</h3>
+            <p class="card__tagline">Online bookstore, polyglot persistence</p>
           </div>
-          <p class="card__body">Capstone framework where an orchestrator agent treats a vector store, a relational database and a knowledge graph as specialised tools, routing each question to the pipeline that can actually answer it.</p>
+          <p class="card__body">A three-tier bookstore using the right database for each job — relational for catalogue and orders, document for preferences and recommendations.</p>
           <details class="more">
             <summary>Technical detail</summary>
             <ul role="list">
-              <li>LlamaIndex orchestrator classifies intent and calls the vector, SQL or graph tool — no manual store selection.</li>
-              <li>Role-based access control grants tool access by rank, so the agent can only query stores a user is authorised to see.</li>
-              <li>Benchmarked with Ragas, execution-accuracy comparison and a custom Cypher matcher across every pipeline iteration.</li>
+              <li>MySQL for the book catalogue and customer records; MongoDB for preferences and recommendation state.</li>
+              <li>Recommendation engine reads preference documents to surface relevant titles.</li>
+              <li>Three-tier architecture separating presentation, application logic and storage for scalability.</li>
             </ul>
           </details>
-          <p class="tags"><span>LlamaIndex</span><span>Neo4j</span><span>ChromaDB</span><span>PostgreSQL</span><span>vLLM</span><span>Ragas</span></p>
-          <a class="card__link" href="#capstone">Read the case study ↓</a>
+          <p class="tags"><span>PHP</span><span>MySQL</span><span>MongoDB</span></p>
+          <a class="card__link" href="https://github.com/Joo-ooo/BookVerse" target="_blank" rel="noopener">Repository ↗</a>
         </article>
       </div>
       <p class="empty" id="empty" hidden>No projects in that area yet.</p>
