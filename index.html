@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Tan Heng Joo — Software Engineer</title>
+<meta name="description" content="Software engineering undergraduate in Singapore building production backends, agentic RAG systems and data platforms. Portfolio of projects, internships and technical work." />
+<meta property="og:title" content="Tan Heng Joo — Software Engineer" />
+<meta property="og:description" content="Software engineering undergraduate in Singapore building production backends, agentic RAG systems and data platforms." />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="assets/img/circle_headshot.png" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23125E56'/%3E%3Cpath d='M9 9h14M16 9v10.5a3.5 3.5 0 0 1-7 0' stroke='%23F7F7F4' stroke-width='2.6' fill='none' stroke-linecap='round'/%3E%3C/svg%3E" />
+<link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@700,800&f[]=satoshi@400,500,700&f[]=jetbrains-mono@400,500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":"Tan Heng Joo","jobTitle":"Software Engineer","address":{"@type":"PostalAddress","addressCountry":"SG"},"alumniOf":"Singapore Institute of Technology","url":"https://joo-ooo.github.io","sameAs":["https://github.com/Joo-ooo"]}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="hdr" id="hdr">
+  <div class="hdr__inner">
+    <a class="mark" href="#top" aria-label="Tan Heng Joo — home">
+      <svg width="26" height="26" viewBox="0 0 32 32" aria-hidden="true" fill="none">
+        <rect x="1" y="1" width="30" height="30" rx="7" stroke="currentColor" stroke-width="1.6"/>
+        <path d="M9 9.5h14M16 9.5v10a3.5 3.5 0 0 1-7 0" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+      </svg>
+      <span>Heng Joo</span>
+    </a>
+    <nav class="nav" aria-label="Sections">
+      <a href="#work">Work</a>
+      <a href="#projects">Projects</a>
+      <a href="#capstone">Capstone</a>
+      <a href="#stack">Stack</a>
+      <a href="#about">About</a>
+    </nav>
+    <div class="hdr__actions">
+      <button class="kbtn" data-open-palette aria-label="Open quick navigation">
+        <span>Jump to</span><kbd>K</kbd>
+      </button>
+      <button class="icon-btn" data-theme-toggle aria-label="Switch to dark mode"></button>
+    </div>
+  </div>
+  <div class="progress" aria-hidden="true"><i id="bar"></i></div>
+</header>
+
+<main id="main">
+  <span id="top"></span>
+
+  <!-- HERO -->
+  <section class="hero">
+    <canvas class="hero__grid" id="grid" aria-hidden="true"></canvas>
+    <div class="wrap hero__inner">
+      <div class="hero__copy">
+        <p class="eyebrow"><i class="dot"></i> Singapore · Open to 2026 grad roles</p>
+        <h1 class="hero__title">
+          I build the<br /><span class="rotator" aria-live="polite"><span id="rot">backends</span></span><br />behind the product.
+        </h1>
+        <p class="lede">
+          Final-year Software Engineering undergraduate at SIT. I've shipped a production
+          chatbot backend at HTX, built multi-store agentic RAG across Neo4j, PostgreSQL and
+          ChromaDB, and automated resume screening at Temasek Holdings.
+        </p>
+        <div class="cta-row">
+          <a class="btn btn--primary" href="#projects">See the work
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6"/></svg>
+          </a>
+          <button class="btn btn--ghost" data-copy="hengjoo7267@gmail.com">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+            <span class="copy-label">Copy email</span>
+          </button>
+          <a class="btn btn--ghost" href="https://github.com/Joo-ooo" target="_blank" rel="noopener">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a12 12 0 0 0-3.79 23.4c.6.1.82-.26.82-.58v-2c-3.34.72-4.04-1.6-4.04-1.6-.55-1.4-1.34-1.78-1.34-1.78-1.09-.75.08-.73.08-.73 1.2.09 1.84 1.24 1.84 1.24 1.07 1.84 2.8 1.31 3.49 1-.11-.78-.42-1.31-.76-1.61-2.67-.3-5.47-1.34-5.47-5.96 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.17 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0C17.9 4.75 18.9 5.07 18.9 5.07c.66 1.65.25 2.87.12 3.17.77.84 1.24 1.91 1.24 3.22 0 4.63-2.81 5.65-5.49 5.95.43.37.81 1.1.81 2.22v3.29c0 .32.22.69.83.57A12 12 0 0 0 12 .5Z"/></svg>
+            GitHub
+          </a>
+        </div>
+      </div>
+      <figure class="hero__photo">
+        <img src="assets/img/circle_headshot.png" alt="Portrait of Tan Heng Joo" width="577" height="573" />
+        <figcaption>Tan Heng Joo</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- METRICS -->
+  <section class="metrics" aria-label="Impact highlights">
+    <div class="wrap metrics__grid">
+      <div class="metric reveal"><b><span class="num" data-to="35" data-suffix="%">0</span></b><span>fewer defects after introducing code review &amp; TDD</span></div>
+      <div class="metric reveal"><b><span class="num" data-to="60" data-suffix="%">0</span></b><span>less resume screening time via an AI-powered ATS</span></div>
+      <div class="metric reveal"><b><span class="num" data-to="75" data-suffix="%">0</span></b><span>faster course-approval turnaround after automation</span></div>
+      <div class="metric reveal"><b><span class="num" data-to="20" data-suffix="+">0</span></b><span>daily concurrent users on the chatbot I shipped</span></div>
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section class="sect" id="work">
+    <div class="wrap">
+      <div class="sect__head reveal">
+        <p class="kicker">01 — Experience</p>
+        <h2>Where I've worked</h2>
+        <p class="sect__sub">Click a role to read what I actually shipped.</p>
+      </div>
+      <ol class="tl" role="list">
+        <li class="tl__item reveal">
+          <button class="tl__btn" aria-expanded="true">
+            <span class="tl__meta">2025</span>
+            <span class="tl__head">
+              <strong>Data Science / Software Engineer Intern</strong>
+              <em>Home Team Science &amp; Technology Agency (HTX)</em>
+            </span>
+            <svg class="chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+          </button>
+          <div class="tl__body">
+            <ul role="list">
+              <li>Shipped a production report-lodging chatbot, owning the FastAPI backend serving 20 concurrent users daily — coding through to deployment in an enterprise environment.</li>
+              <li>Ran regular code review sessions and cut defects by 35%, applying automated testing, TDD, debugging and containerised DevOps practices for a smooth go-live.</li>
+              <li>Built a multi-store agentic RAG that routes complex queries across multiple database instances, surfacing key metrics through an intuitive interface.</li>
+              <li>Collaborated cross-functionally on robust REST APIs following HTTP best practices, meeting 100% of performance and compliance requirements.</li>
+            </ul>
+            <p class="tags"><span>FastAPI</span><span>Python</span><span>Docker</span><span>Neo4j</span><span>PostgreSQL</span><span>ChromaDB</span><span>TDD</span></p>
+          </div>
+        </li>
+        <li class="tl__item reveal">
+          <button class="tl__btn" aria-expanded="false">
+            <span class="tl__meta">2024</span>
+            <span class="tl__head">
+              <strong>Data Analyst Intern</strong>
+              <em>Temasek Holdings Ltd</em>
+            </span>
+            <svg class="chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+          </button>
+          <div class="tl__body">
+            <ul role="list">
+              <li>Designed an AI-powered ATS that automated resume screening and shortlisting, cutting Talent Acquisition screening time by 60% across three hiring workflows.</li>
+              <li>Built an automated course-request workflow with supervisor approvals — 75% faster turnaround and 20 fewer hours of manual coordination each month.</li>
+              <li>Implemented clean data ingestion, governance and reporting in a data warehouse environment, designed for scalability and reliability.</li>
+              <li>Worked with cross-functional teams to define technical requirements and ship lean optimisation solutions aligned to business strategy.</li>
+            </ul>
+            <p class="tags"><span>Python</span><span>SQL</span><span>Data warehousing</span><span>Automation</span><span>NLP</span></p>
+          </div>
+        </li>
+        <li class="tl__item reveal">
+          <button class="tl__btn" aria-expanded="false">
+            <span class="tl__meta">Earlier</span>
+            <span class="tl__head">
+              <strong>Lab Analyst Intern</strong>
+              <em>Syngenta Asia Pacific Pte Ltd</em>
+            </span>
+            <svg class="chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+          </button>
+          <div class="tl__body">
+            <ul role="list">
+              <li>Analysed pesticides quantitatively using High-Performance Liquid Chromatography (HPLC) and Gas Chromatography (GC).</li>
+              <li>Calibrated and validated lab equipment including pH meters and Karl Fischer titrators.</li>
+            </ul>
+            <p class="tags"><span>HPLC</span><span>GC</span><span>Analytical QA</span></p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="sect sect--alt" id="projects">
+    <div class="wrap">
+      <div class="sect__head reveal">
+        <p class="kicker">02 — Projects</p>
+        <h2>Selected projects</h2>
+        <p class="sect__sub">Filter by what you care about.</p>
+      </div>
+
+      <div class="filters reveal" role="group" aria-label="Filter projects by area">
+        <button class="chip is-on" data-filter="all">All</button>
+        <button class="chip" data-filter="ml">ML &amp; NLP</button>
+        <button class="chip" data-filter="web">Web &amp; mobile</button>
+        <button class="chip" data-filter="data">Data</button>
+      </div>
+
+      <div class="cards" id="cards">
+        <article class="card card--wide reveal" data-tags="ml data">
+          <div class="card__top">
+            <h3>A-Learn+</h3>
+            <p class="card__tagline">Context-based sentiment analysis for adult learning feedback</p>
+          </div>
+          <p class="card__body">A sentiment framework that reads feedback in context — pairing fine-tuned transformers with custom neural architectures to turn noisy learner comments into decisions educators can act on.</p>
+          <details class="more">
+            <summary>Technical detail</summary>
+            <ul role="list">
+              <li>Fine-tuned Twitter-RoBERTa and DistilBERT to capture nuance specific to adult learning feedback.</li>
+              <li>Layered attention-enhanced GRU, CNN and FastText to catch contextual, spatial and hierarchical sentiment patterns.</li>
+              <li>Ran sensitivity analysis on trainable layer count and learning rate to balance accuracy against compute.</li>
+              <li>Collected large-scale feedback from Twitter, Reddit and Tumblr, then filtered for relevance and rebuilt post–comment context for training.</li>
+            </ul>
+          </details>
+          <p class="tags"><span>RoBERTa</span><span>DistilBERT</span><span>GRU + Attention</span><span>FastText</span><span>PyTorch</span></p>
+        </article>
+
+        <article class="card reveal" data-tags="ml web">
+          <div class="card__top">
+            <h3>AiStudy</h3>
+            <p class="card__tagline">Adaptive learning platform</p>
+          </div>
+          <p class="card__body">Personalises study paths from performance data, recommending the next material or quiz instead of a fixed syllabus.</p>
+          <details class="more">
+            <summary>Technical detail</summary>
+            <ul role="list">
+              <li>ML models score student performance and adaptively suggest materials and quizzes.</li>
+              <li>Batch analytics over large datasets surface learning patterns and preferences.</li>
+              <li>Responsive, interactive front end built for low-friction study sessions.</li>
+            </ul>
+          </details>
+          <p class="tags"><span>Kotlin</span><span>Android</span><span>ML</span></p>
+          <a class="card__link" href="https://github.com/Joo-ooo/AiStudy" target="_blank" rel="noopener">Repository ↗</a>
+        </article>
+
+        <article class="card reveal" data-tags="web data">
+          <div class="card__top">
+            <h3>BookVerse</h3>
+            <p class="card__tagline">Online bookstore, polyglot persistence</p>
+          </div>
+          <p class="card__body">A three-tier bookstore using the right database for each job — relational for catalogue and orders, document for preferences and recommendations.</p>
+          <details class="more">
+            <summary>Technical detail</summary>
+            <ul role="list">
+              <li>MySQL for the book catalogue and customer records; MongoDB for preferences and recommendation state.</li>
+              <li>Recommendation engine reads preference documents to surface relevant titles.</li>
+              <li>Three-tier architecture separating presentation, application logic and storage for scalability.</li>
+            </ul>
+          </details>
+          <p class="tags"><span>PHP</span><span>MySQL</span><span>MongoDB</span></p>
+          <a class="card__link" href="https://github.com/Joo-ooo/BookVerse" target="_blank" rel="noopener">Repository ↗</a>
+        </article>
+
+        <article class="card reveal" data-tags="data ml">
+          <div class="card__top">
+            <h3>SmartRoute</h3>
+            <p class="card__tagline">Airport transfer route optimisation</p>
+          </div>
+          <p class="card__body">Optimises Changi T3 hotel transfers against live traffic and ERP pricing, cutting fuel and toll cost per trip.</p>
+          <details class="more">
+            <summary>Technical detail</summary>
+            <ul role="list">
+              <li>Routing algorithms weigh real-time traffic to pick the most time- and cost-efficient path.</li>
+              <li>Internal BI layer supports data-driven decisions on routing and resource allocation.</li>
+              <li>Real-time processing lets routes adjust as road conditions and ERP charges change.</li>
+            </ul>
+          </details>
+          <p class="tags"><span>Python</span><span>Optimisation</span><span>BI</span></p>
+          <a class="card__link" href="https://github.com/Joo-ooo/SmartRoute" target="_blank" rel="noopener">Repository ↗</a>
+        </article>
+
+        <article class="card reveal" data-tags="ml data">
+          <div class="card__top">
+            <h3>AMS-RAG</h3>
+            <p class="card__tagline">Agentic multi-store RAG framework</p>
+          </div>
+          <p class="card__body">Capstone framework where an orchestrator agent treats a vector store, a relational database and a knowledge graph as specialised tools, routing each question to the pipeline that can actually answer it.</p>
+          <details class="more">
+            <summary>Technical detail</summary>
+            <ul role="list">
+              <li>LlamaIndex orchestrator classifies intent and calls the vector, SQL or graph tool — no manual store selection.</li>
+              <li>Role-based access control grants tool access by rank, so the agent can only query stores a user is authorised to see.</li>
+              <li>Benchmarked with Ragas, execution-accuracy comparison and a custom Cypher matcher across every pipeline iteration.</li>
+            </ul>
+          </details>
+          <p class="tags"><span>LlamaIndex</span><span>Neo4j</span><span>ChromaDB</span><span>PostgreSQL</span><span>vLLM</span><span>Ragas</span></p>
+          <a class="card__link" href="#capstone">Read the case study ↓</a>
+        </article>
+      </div>
+      <p class="empty" id="empty" hidden>No projects in that area yet.</p>
+    </div>
+  </section>
+
+  <!-- CAPSTONE CASE STUDY -->
+  <section class="sect" id="capstone">
+    <div class="wrap">
+      <div class="sect__head reveal">
+        <p class="kicker">03 — Capstone</p>
+        <h2>AMS-RAG: one agent, three data stores</h2>
+        <p class="sect__sub">A unified, agent-routed RAG framework that treats vector, relational and graph stores as specialised tools instead of a single monolithic index.</p>
+      </div>
+
+      <div class="cs__lead reveal">
+        <p>Real organisational data is heterogeneous — unstructured reports, structured tables, and relationship-heavy records. Traditional RAG flattens all of it into one vector index and loses precision. AMS-RAG instead puts an <strong>orchestrator agent</strong> in front of three purpose-built pipelines and lets it decide which one to call.</p>
+        <p>The reference deployment is a <strong>Home Team Unified Agent</strong> over three public-sector datasets — Singapore Police Force, Singapore Prison Service and HTX — with role-based access control layered on top, so an officer and a director asking the same question see different authorised scopes.</p>
+        <div class="cs__links">
+          <a class="btn btn--primary" href="https://github.com/Joo-ooo/AMS-RAG" target="_blank" rel="noopener">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a12 12 0 0 0-3.79 23.4c.6.1.82-.26.82-.58v-2c-3.34.72-4.04-1.6-4.04-1.6-.55-1.4-1.34-1.78-1.34-1.78-1.09-.75.08-.73.08-.73 1.2.09 1.84 1.24 1.84 1.24 1.07 1.84 2.8 1.31 3.49 1-.11-.78-.42-1.31-.76-1.61-2.67-.3-5.47-1.34-5.47-5.96 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.17 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0C17.9 4.75 18.9 5.07 18.9 5.07c.66 1.65.25 2.87.12 3.17.77.84 1.24 1.91 1.24 3.22 0 4.63-2.81 5.65-5.49 5.95.43.37.81 1.1.81 2.22v3.29c0 .32.22.69.83.57A12 12 0 0 0 12 .5Z"/></svg>
+            Repository
+          </a>
+          <span class="cs__meta">Python 3.11+ · LlamaIndex · Docker Compose</span>
+        </div>
+      </div>
+
+      <!-- DEMOS -->
+      <h3 class="cs__h reveal">Watch it route</h3>
+      <div class="demos">
+        <figure class="demo reveal">
+          <video controls preload="none" playsinline poster="assets/media/ams-demo-officer-poster.jpg" width="1440" height="672">
+            <source src="assets/media/ams-demo-officer-web.mp4" type="video/mp4" />
+            Your browser cannot play this recording. <a href="assets/media/ams-demo-officer-web.mp4">Download the MP4</a>.
+          </video>
+          <figcaption>
+            <strong>Officer tier — vector pipeline</strong>
+            <span>An officer-rank account is scoped to the SPF corpus only. Their scam-statistics question is routed to the vector pipeline and answered from the SPF Annual Crime Reports. <em>20s</em></span>
+          </figcaption>
+        </figure>
+        <figure class="demo reveal">
+          <video controls preload="none" playsinline poster="assets/media/ams-demo-director-poster.jpg" width="1440" height="648">
+            <source src="assets/media/ams-demo-director-web.mp4" type="video/mp4" />
+            Your browser cannot play this recording. <a href="assets/media/ams-demo-director-web.mp4">Download the MP4</a>.
+          </video>
+          <figcaption>
+            <strong>Director tier — graph, then vector</strong>
+            <span>A director-rank account is authorised across all three stores. Two questions in the same conversation land on different pipelines — an organisational-relationship query on the graph, a crime-statistics query on the vector store. <em>39s</em></span>
+          </figcaption>
+        </figure>
+      </div>
+
+      <!-- ARCHITECTURE -->
+      <h3 class="cs__h reveal">Hub and spoke</h3>
+      <figure class="arch reveal">
+        <button class="arch__frame" data-zoom-wide data-zoom="assets/media/ams-architecture.jpg" data-zoom-alt="AMS-RAG architecture diagram: ingestion into ChromaDB, Neo4j and PostgreSQL, with an orchestrator agent routing retrieval and a reranker feeding response generation" aria-label="Enlarge the AMS-RAG architecture diagram">
+          <img src="assets/media/ams-architecture.jpg" alt="AMS-RAG architecture diagram: ingestion into ChromaDB, Neo4j and PostgreSQL, with an orchestrator agent routing retrieval and a reranker feeding response generation" width="2600" height="748" loading="lazy" />
+          <span class="arch__zoom">Click to enlarge</span>
+        </button>
+        <figcaption>Ingestion normalises documents, CSVs and entity relationships into three stores. At query time the orchestrator picks a retriever, results are re-ranked, and a single response is generated.</figcaption>
+      </figure>
+
+      <!-- PIPELINE TABS -->
+      <h3 class="cs__h reveal">The four moving parts</h3>
+      <div class="pipes reveal">
+        <div class="pipes__tabs" role="tablist" aria-label="AMS-RAG components">
+          <button class="ptab is-on" role="tab" aria-selected="true" aria-controls="pipe-agent" id="tab-agent">Orchestrator</button>
+          <button class="ptab" role="tab" aria-selected="false" aria-controls="pipe-vector" id="tab-vector">Vector</button>
+          <button class="ptab" role="tab" aria-selected="false" aria-controls="pipe-sql" id="tab-sql">SQL</button>
+          <button class="ptab" role="tab" aria-selected="false" aria-controls="pipe-graph" id="tab-graph">Graph</button>
+        </div>
+
+        <div class="ppanel is-on" role="tabpanel" id="pipe-agent" aria-labelledby="tab-agent">
+          <p class="ppanel__lead">A LlamaIndex agent workflow acting as “Chief Data Orchestrator”.</p>
+          <ul role="list">
+            <li>Classifies intent into crime/scams, inmate statistics or project relationships, then executes the matching tool.</li>
+            <li>Tool surface is filtered by the signed-in user's rank, so unauthorised stores are never callable.</li>
+            <li>Implemented in <code>Agent/agent.py</code>, with a Streamlit auth and chat UI in <code>Agent/app.py</code>.</li>
+          </ul>
+          <p class="tags"><span>LlamaIndex AgentWorkflow</span><span>Transformers</span><span>Streamlit</span></p>
+        </div>
+
+        <div class="ppanel" role="tabpanel" id="pipe-vector" aria-labelledby="tab-vector" hidden>
+          <p class="ppanel__lead">Unstructured text and visual data — SPF Annual Crime Reports.</p>
+          <ul role="list">
+            <li>Nanonets OCR parses complex PDF layouts and tables into markdown before chunking.</li>
+            <li>Embeddings from <code>multilingual-e5-large</code> stored in ChromaDB.</li>
+            <li>Hybrid retrieval pairs semantic similarity with BM25 keyword search.</li>
+            <li>Results re-ranked by <code>BGE-Reranker-v2-m3</code> and expanded with HyDE for better context relevance.</li>
+          </ul>
+          <p class="tags"><span>ChromaDB</span><span>Nanonets OCR</span><span>BM25</span><span>HyDE</span><span>Cross-encoder rerank</span></p>
+        </div>
+
+        <div class="ppanel" role="tabpanel" id="pipe-sql" aria-labelledby="tab-sql" hidden>
+          <p class="ppanel__lead">Precise lookup and aggregation — SPS inmate statistics.</p>
+          <ul role="list">
+            <li>CSVs normalised into PostgreSQL and queried through a text-to-SQL engine.</li>
+            <li><code>Llama-3.1-8B-Instruct</code> served locally through vLLM generates the SQL.</li>
+            <li>Query-Time Table Retrieval selects only relevant schemas first, cutting tokens and hallucination risk.</li>
+          </ul>
+          <p class="tags"><span>PostgreSQL</span><span>Text-to-SQL</span><span>vLLM</span><span>QTTR</span></p>
+        </div>
+
+        <div class="ppanel" role="tabpanel" id="pipe-graph" aria-labelledby="tab-graph" hidden>
+          <p class="ppanel__lead">Multi-hop reasoning and relationship discovery — HTX annual report.</p>
+          <ul role="list">
+            <li>Property graph built in Neo4j via <code>PropertyGraphIndex</code>.</li>
+            <li>Text-to-Cypher generation traverses relationships such as projects to departments.</li>
+            <li>Entity disambiguation and schema-aware prompting keep generated Cypher grounded; a regex sanitiser guarantees it executes.</li>
+          </ul>
+          <p class="tags"><span>Neo4j</span><span>Text-to-Cypher</span><span>PropertyGraphIndex</span><span>Entity disambiguation</span></p>
+        </div>
+      </div>
+
+      <!-- SCREENS -->
+      <h3 class="cs__h reveal">Interface</h3>
+      <div class="shots reveal">
+        <figure class="shot">
+          <button data-zoom="assets/media/ams-auth.png" data-zoom-alt="Sign-in screen of the Home Team Unified Agent" aria-label="Enlarge the authentication screenshot">
+            <img src="assets/media/ams-auth.png" alt="Sign-in screen of the Home Team Unified Agent" width="1204" height="698" loading="lazy" />
+          </button>
+          <figcaption>Authentication — accounts carry an access tier</figcaption>
+        </figure>
+        <figure class="shot">
+          <button data-zoom="assets/media/ams-chat.png" data-zoom-alt="Chat interface of the Home Team Unified Agent showing a question and generated answer" aria-label="Enlarge the chat interface screenshot">
+            <img src="assets/media/ams-chat.png" alt="Chat interface of the Home Team Unified Agent showing a question and generated answer" width="1200" height="526" loading="lazy" />
+          </button>
+          <figcaption>Chat — one interface over all three stores</figcaption>
+        </figure>
+        <figure class="shot">
+          <button data-zoom="assets/media/ams-tools.png" data-zoom-alt="Notification listing the retrieval tools available to the signed-in user" aria-label="Enlarge the authorised tools screenshot">
+            <img src="assets/media/ams-tools.png" alt="Notification listing the retrieval tools available to the signed-in user" width="1206" height="230" loading="lazy" />
+          </button>
+          <figcaption>Authorised tools — surfaced on sign-in</figcaption>
+        </figure>
+      </div>
+
+      <!-- BENCHMARKS -->
+      <h3 class="cs__h reveal">How it was measured</h3>
+      <div class="bench reveal">
+        <table>
+          <caption>Every iteration — base, advanced, refactored, agent — was evaluated with a pipeline-appropriate metric set.</caption>
+          <thead><tr><th scope="col">Pipeline</th><th scope="col">Metrics</th><th scope="col">Tooling</th></tr></thead>
+          <tbody>
+            <tr><td>Vector</td><td>Faithfulness, answer relevancy, context precision &amp; recall</td><td>Ragas</td></tr>
+            <tr><td>SQL</td><td>Execution accuracy — result-set equivalence</td><td>DataCompy</td></tr>
+            <tr><td>Graph</td><td>Cypher match and execution equivalence</td><td>Custom <code>CypherMatch</code></td></tr>
+            <tr><td>Agent</td><td>Routing accuracy and end-to-end answer quality</td><td>Custom evaluation suite</td></tr>
+          </tbody>
+        </table>
+        <p class="bench__note">Benchmarks were run across five served models — Llama 3.1 / 3.2, Ministral 3, Qwen3 4B and 8B, plus a fine-tuned and chain-of-thought variant — and compared against Microsoft GraphRAG and Arctic-Text2SQL-R1-7B baselines. Results are committed alongside the code.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- STACK -->
+  <section class="sect sect--alt" id="stack">
+    <div class="wrap">
+      <div class="sect__head reveal">
+        <p class="kicker">04 — Stack</p>
+        <h2>What I work with</h2>
+        <p class="sect__sub">Grouped by how often I reach for it.</p>
+      </div>
+      <div class="stack">
+        <div class="stack__col reveal">
+          <h3>Languages</h3>
+          <ul role="list"><li>Python</li><li>Java</li><li>C#</li><li>SQL</li><li>JavaScript</li><li>Kotlin</li></ul>
+        </div>
+        <div class="stack__col reveal">
+          <h3>Backend &amp; data</h3>
+          <ul role="list"><li>FastAPI</li><li>ASP.NET Core</li><li>PostgreSQL</li><li>MySQL</li><li>MongoDB</li><li>Neo4j</li><li>ChromaDB</li></ul>
+        </div>
+        <div class="stack__col reveal">
+          <h3>ML &amp; LLM</h3>
+          <ul role="list"><li>PyTorch</li><li>Transformers</li><li>LlamaIndex</li><li>vLLM</li><li>RAG architectures</li><li>Ragas / G-Eval</li></ul>
+        </div>
+        <div class="stack__col reveal">
+          <h3>Platform</h3>
+          <ul role="list"><li>Docker</li><li>Git / GitHub Actions</li><li>Azure ML</li><li>AWS</li><li>Jenkins</li></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="sect" id="about">
+    <div class="wrap about">
+      <div class="about__text reveal">
+        <p class="kicker">05 — About</p>
+        <h2>Engineer first, curious always</h2>
+        <p>I started in chemical engineering and switched to software once I realised I'd rather build the tool than run the assay. That detour left me comfortable with rigour: calibrate, measure, prove it works.</p>
+        <p>Right now I'm most interested in agentic systems that stay honest — retrieval you can evaluate, orchestration you can debug, and APIs that hold up under real users. Outside of that, badminton and the gym.</p>
+        <dl class="edu">
+          <div><dt>Software Engineering, BEng</dt><dd>Singapore Institute of Technology · present</dd></div>
+          <div><dt>Chemical Engineering, Diploma</dt><dd>Temasek Polytechnic</dd></div>
+        </dl>
+      </div>
+      <figure class="about__img reveal">
+        <img src="assets/img/profile.jpg" alt="Tan Heng Joo" width="960" height="1280" loading="lazy" />
+      </figure>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="wrap contact__inner reveal">
+      <h2>Let's build something.</h2>
+      <p>Open to data science, AI and software engineering roles from October 2026. The fastest way to reach me is email.</p>
+      <div class="cta-row cta-row--center">
+        <a class="btn btn--primary" href="mailto:hengjoo7267@gmail.com">hengjoo7267@gmail.com</a>
+        <a class="btn btn--ghost" href="https://github.com/Joo-ooo" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="ftr">
+  <div class="wrap ftr__inner">
+    <span>© <span id="yr">2026</span> Tan Heng Joo</span>
+    <span class="ftr__hint">Press <kbd>K</kbd> to jump around</span>
+  </div>
+</footer>
+
+<!-- COMMAND PALETTE -->
+<div class="pal" id="pal" hidden>
+  <div class="pal__scrim" data-close-palette></div>
+  <div class="pal__box" role="dialog" aria-modal="true" aria-label="Quick navigation">
+    <input id="palq" type="text" placeholder="Jump to a section or link…" autocomplete="off" />
+    <ul id="pallist" role="listbox"></ul>
+  </div>
+</div>
+
+<!-- LIGHTBOX -->
+<div class="lb" id="lb" hidden>
+  <div class="lb__scrim" data-close-lb></div>
+  <div class="lb__box" role="dialog" aria-modal="true" aria-label="Enlarged image">
+    <button class="lb__close" data-close-lb aria-label="Close enlarged image">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+    </button>
+    <div class="lb__scroll"><img id="lbimg" src="" alt="" /></div>
+    <p class="lb__hint">Esc to close</p>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="app.js"></script>
+</body>
+</html>
